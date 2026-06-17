@@ -23,6 +23,7 @@
         // This forces the integrated terminal to wipe old output when clicking the Play button
         "python.terminal.executeInFileDir": true,
         "python.terminal.clearPreviousOnExecute": true,
+        "terminal.integrated.clearBeforeReusing": true,
 
         // --- DISABLE AI FEATURES ---
         // Hides Copilot buttons, inline suggestions, and setup prompts
