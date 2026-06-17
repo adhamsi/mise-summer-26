@@ -6,33 +6,27 @@
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "ms-python.vscode-pylance"
+        "formulahendry.code-runner" // Adds an alternative, controllable execution engine
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "files.autoSave": "afterDelay",
         
         // --- DISPLAY & WORKBENCH LAYOUT SETTINGS ---
-        "workbench.panel.defaultVisibility": "hidden",
-        "workbench.sideBar.location": "left",
         "workbench.activityBar.location": "hidden",
         "editor.minimap.enabled": false,                     
         "workbench.editor.showTabs": "multiple",
+        "workbench.sideBar.location": "left",
+        "workbench.panel.defaultVisibility": "hidden",
+        "workbench.secondarySideBar.defaultVisibility": "hidden",
 
-        // --- CLEAR TERMINAL ON RUN ---
-        // This forces the integrated terminal to wipe old output when clicking the Play button
-        "python.terminal.executeInFileDir": true,
-        "python.terminal.clearPreviousOnExecute": true,
-        "terminal.integrated.clearBeforeReusing": true,
+        // --- CODE RUNNER CLEAR CONFIG ---
+        "code-runner.clearPreviousOutput": true,
+        "code-runner.showExecutionMessage": false, // Hides the ugly cd /usr/bin/python terminal text
+        "code-runner.runInTerminal": true,
 
         // --- DISABLE AI FEATURES ---
-        // Hides Copilot buttons, inline suggestions, and setup prompts
-        "github.copilot.enable": {
-          "*": false
-        },
-        "github.copilot.editor.enableAutoCompletions": false,
-        "inlineChat.acceptedWidgetPlacement": "hidden",
-        "workbench.layoutControl.enabled": false
+        "chat.disableAIFeatures": true,
       }
     }
   }
