@@ -21,9 +21,6 @@
         // --- DISPLAY & WORKBENCH LAYOUT SETTINGS ---
         "workbench.activityBar.location": "hidden",
         "workbench.startupEditor": "none",
-        "workbench.editorAssociations": {
-          "*.md": "vscode.markdown.preview.editor"
-        },
         "editor.minimap.enabled": false,
         "workbench.editor.showTabs": "multiple",
         "workbench.sideBar.location": "left",
