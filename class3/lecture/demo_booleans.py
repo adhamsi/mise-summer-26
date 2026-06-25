@@ -1,0 +1,11 @@
+print(3 == 3)
+print(3 == 5)
+a = 18
+print(a)
+print(a < 21)
+print("Hello" == "Hello")
+print("Hello" == "Hell0")
+print(2 + 5*3 >= 20)
+print(7 != 42)
+print(True == False)
+print(type(True))
