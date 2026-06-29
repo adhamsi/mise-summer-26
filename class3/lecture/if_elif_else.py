@@ -1,10 +1,14 @@
-if (4 > 4):
-	print("4 must be bigger than 4")
-	print("My genius frightens me sometimes")
-elif (4 < 4):
-	print("4 must be smaller than 4")
-	print("IMO Gold medal here I come")
+bool_1 = False
+bool_2 = False
+bool_3 = False
+
+if bool_1:
+	print("MISE is awesome!")
+elif bool_2:
+	print("We love MISE!")
+elif bool_3:
+  print("Today is Friday!")
 else:
-	print("4 is equal to 4")
-	print("Makes sense I guess")
-print("We love math")
+	print("Go MISE!")
+
+print("Ghana will win the world cup!")
